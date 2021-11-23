@@ -1,0 +1,4 @@
+[submodule "OCA/manufacture"]
+	path = OCA/manufacture
+	url = git@github.com:OCA/manufacture.git
+	branch = 15.0
