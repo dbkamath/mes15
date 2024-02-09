@@ -1,0 +1,5 @@
+EXPENSE REPORT SUMMARY,NAME, PRODUCT NAME,BARCODE,INTERNAL REFERENCE ,UNIT AMOUNT,QUANTITY,EMPLOYEE NAME,WORK EMAIL,WORK PHONE,ANALYTIC ACCOUNT,DATE,PAID BY,BILL REFERENCE,SALE ORDER
+Car,Mileage,Mileage,None,MIL,150,2,Mitchell Admin,aiden.hughes71@example.com,(237)-125-2389,Delta PC,2019/10/15,Employee,None,None
+,Mileage,Mileage,None,MIL,150,2,Mitchell Admin,aiden.hughes71@example.com,(237)-125-2389,Delta PC,2019/10/15,Employee,None,None
+Travel Dubai,Accomodation,Accomodation,None,ACC,1500,1,Jennie Fletcher,jennie.fletcher76@example.com,(157)-363-8229,Seagate P2,2019/10/16,Employee,None,None
+Travel Goa,Accomodation,Accomodation,None,ACC,2000,1,Jennie Fletcher,jennie.fletcher76@example.com,(157)-363-8229,Seagate P2,2019/10/16,Employee,None,None

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data noupdate="0">
+	
+		<record id="sample_HR_Expense_xls" model="ir.attachment">
+	        <field name="name">HR_Expense.xls</field>
+	        <field name="public" eval="True"/>
+	        <field name="type">binary</field>
+	        <field name="datas" type="base64" file="import_employee_expense/Sample XLS-CSV File/HR_Expense.xls"/>
+	    </record>
+	
+	    <record id="sample_HR_Expense_csv" model="ir.attachment">
+	        <field name="name">HR_Expense.csv</field>
+	        <field name="public" eval="True"/>
+	        <field name="type">binary</field>
+	        <field name="datas" type="base64" file="import_employee_expense/Sample XLS-CSV File/HR_Expense.csv"/>
+	    </record>
+	    
+	</data>
+</odoo>

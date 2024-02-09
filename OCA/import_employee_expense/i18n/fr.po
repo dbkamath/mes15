@@ -1,0 +1,213 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* import_employee_expense
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-14 05:26+0000\n"
+"PO-Revision-Date: 2021-06-14 05:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__product_by__barcode
+msgid "Barcode"
+msgstr "code à barre"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Barcode for Product cannot be empty."
+msgstr "Le code-barres du produit ne peut pas être vide."
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__filetype__csv
+msgid "CSV"
+msgstr "CSV"
+
+#. module: import_employee_expense
+#: model_terms:ir.ui.view,arch_db:import_employee_expense.view_form_expense_import_wizard
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__create_date
+msgid "Created on"
+msgstr "Créé sur"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__display_name
+msgid "Display Name"
+msgstr "Afficher un nom"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__file
+msgid "Document"
+msgstr "Document"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__filename
+msgid "Document Name"
+msgstr "Nom du document"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__filetype
+msgid "Document Type"
+msgstr "Type de document"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__employee_by
+msgid "Employee By"
+msgstr "Employé par"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Empty File"
+msgstr "Fichier vide"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__id
+msgid "ID"
+msgstr "identifiant"
+
+#. module: import_employee_expense
+#: model:ir.ui.menu,name:import_employee_expense.menu_hr_expense_import
+#: model_terms:ir.ui.view,arch_db:import_employee_expense.view_form_expense_import_wizard
+msgid "Import"
+msgstr "Importer"
+
+#. module: import_employee_expense
+#: model:ir.actions.act_window,name:import_employee_expense.action_import_expense
+#: model:ir.ui.menu,name:import_employee_expense.menu_import_expense
+msgid "Import Employee Expense"
+msgstr "Importer les dépenses des employés"
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__product_by__default_code
+msgid "Internal Reference"
+msgstr "Référence interne"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Internal Reference for Product cannot be empty."
+msgstr "La référence interne du produit ne peut pas être vide."
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__employee_by__name
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__product_by__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Name for Employee cannot be empty."
+msgstr "Le nom de l'employé ne peut pas être vide."
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Name for Product cannot be empty."
+msgstr "Le nom du produit ne peut pas être vide."
+
+#. module: import_employee_expense
+#: model:ir.model.fields,field_description:import_employee_expense.field_expense_import_wizard__product_by
+msgid "Product By"
+msgstr "Produit par"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Select a File Type"
+msgstr "Sélectionnez un type de fichier"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Should be Paid By Employee or Company"
+msgstr "Doit être payé par l'employé ou l'entreprise"
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__employee_by__work_email
+msgid "Work Email"
+msgstr "Email de travail"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Work Email for Employee cannot be empty."
+msgstr "L'e-mail professionnel de l'employé ne peut pas être vide."
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__employee_by__work_phone
+msgid "Work Phone"
+msgstr "Téléphone de travail"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Work Phone for Employee cannot be empty."
+msgstr "Le téléphone de travail pour l'employé ne peut pas être vide."
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Wrong Date Format %s. Date Should be in format YYYY/MM/DD"
+msgstr "Format de date incorrect %s. La date doit être au format AAAA/MM/JJ"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Wrong Employee Search Paramter for Employee %s"
+msgstr "Paramètres de recherche d'employés incorrects pour les employés %s"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "Wrong Product Search Paramter for Product %s"
+msgstr "Paramètres de recherche de produit incorrects pour le produit %s"
+
+#. module: import_employee_expense
+#: model:ir.model.fields.selection,name:import_employee_expense.selection__expense_import_wizard__filetype__xls
+msgid "XLS"
+msgstr "XLS"
+
+#. module: import_employee_expense
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#: code:addons/import_employee_expense/models/expense_import_wizard.py:0
+#, python-format
+msgid "You have selected invalid file"
+msgstr "Vous avez sélectionné un fichier invalide"
+
+#. module: import_employee_expense
+#: model:ir.model,name:import_employee_expense.model_expense_import_wizard
+msgid "expense.import.wizard"
+msgstr ""
